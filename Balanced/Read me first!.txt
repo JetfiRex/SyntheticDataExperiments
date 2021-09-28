@@ -1,0 +1,5 @@
+First, run Insurance_numerical_to_classifier_Train_and_Test.ipynb first, then run the rest of the insurance synthetic data file.
+Additionally, there i another file (testing whether the synthetic data follows the riginal distribution.) This does follows... in some sense. This experiment is for saying that the imbalanced data will be hard to ``balance'', unless generate a lot of samples, since the synthetic data has the similar distribution with the original data.
+Now there are few issues:
+1. BTB bug. (Until solved, don't run the part with GCP tuner (third round).) Please notify me if that is solved and I will maintain the code.
+2. For GaussianCopula at the first round (+constaint, -uniform), there is a AUC=0 bug. What happened? 
